@@ -1,0 +1,8 @@
+apiVersion: skaffold/v4beta5
+kind: Config
+manifests:
+  rawYaml:
+    - job.yaml
+deploy:
+  kubectl:
+    defaultNamespace: project-b

@@ -1,0 +1,5 @@
+apiVersion: skaffold/v4beta5
+kind: Config
+requires:
+  - path: project-a/skaffold.yaml
+  - path: project-b/skaffold.yaml
